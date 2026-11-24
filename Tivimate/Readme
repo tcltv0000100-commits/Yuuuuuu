@@ -1,0 +1,18 @@
+# TiviClone IPTV — Android TV Starter Project
+
+A TiviMate-inspired Android TV & Mobile IPTV Player starter project built with **Kotlin**, **Jetpack Compose for TV**, and **AndroidX Media3 (ExoPlayer)**.
+
+## Included Features
+- **TiviMate-Style Dark UI:** Left category/group sidebar, center channel list, and live preview / fullscreen player toggle.
+- **D-Pad Remote Navigation:** Built for Android TV remotes (`LEANBACK_LAUNCHER`) as well as touch devices.
+- **M3U / M3U8 Playlist Parser:** Parses `#EXTM3U` playlists (`tvg-id`, `tvg-name`, `tvg-logo`, `group-title`).
+- **XMLTV EPG Parser:** Starter parser (`XmltvEpgParser.kt`) ready to connect to your EPG XML feed.
+- **Media3 ExoPlayer:** Supports HLS (`.m3u8`), progressive streams, and adaptive playback.
+- **Cloud APK Build Ready:** Includes `.github/workflows/build-apk.yml` so GitHub Actions can compile `app-debug.apk` without a PC.
+
+## Build APK Without a PC (Using GitHub on Mobile)
+1. Unzip `TiviCloneIPTV-AndroidStudio.zip` on your phone.
+2. Create a new repository on GitHub (mobile browser in Desktop mode).
+3. Upload the contents of the `TiviCloneIPTV` folder (including `.github/workflows/build-apk.yml`).
+4. Open the **Actions** tab in your repository and wait ~3 minutes for **Build Debug APK** to finish.
+5. Download the `TiviCloneIPTV-debug-apk` artifact, unzip it, and install `app-debug.apk`.
