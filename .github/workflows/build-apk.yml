@@ -33,4 +33,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: TiviCloneIPTV-debug-apk
-          path: TiviCloneIPTV/app/build/outputs/apk/debug/app-debug.apk
+          path: TiviCloneIPTV/app/build/outputs/apk/debug/Tivimate.apk
